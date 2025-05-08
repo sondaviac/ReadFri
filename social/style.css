@@ -56,83 +56,42 @@ body {
 
 /*TERMINOU O RODA CABEÇA*/
 
-.conteinergeral {
-    display: flex;
-    flex-direction: row;
-}
-
-/*CONTEINER DAS CONVERSAS*/
-
 .conteinerconversas {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    flex-direction: column;
+    width: 30%;
     display: flex;
-    border-radius: 20px;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: white;
 }
 
-.conteinerconversas img{
-    width: 5rem;
-    border-radius: 10px;
-}
-
-.conversaclubes {
+.amigosclubes {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 15px;
+    margin-bottom: 1.5rem;
 }
 
-.friendclub {
-    width: 7rem;
+.amigosclubes button {
+    width: 4rem;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    margin-right: 1.2rem;
 }
 
-/*CONVERSAS*/
-
-.suasconversas {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.cabeca p {
-    padding: 10px;
-    font-size: 25px;
-}
-
-.conversa {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-}
-
-.usuarioresposta {
-    margin: 10px;
-}
-
-/*COMENTARIOS DA SOCIAL*/
-
-.informacoesdecomentarios {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-}
-
-.fotousuariocomentario {
-    display: flex;
-    flex-direction: row;
-}
-
-.fotousuariocomentario img {
-    width: 7rem;
+.amigosclubes img {
+    width: 4rem;
     border-radius: 10px;
-    padding: 5px;
+
 }
 
-.usuariocomentario {
-    width: 20rem;
+.amigosclubes button:hover {
+    cursor: pointer;
+}
+
+.conversasrecentes {
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    width: 100%;
 }
