@@ -143,6 +143,12 @@ body {
 .fotousuariocomentario {
     display: flex;
     flex-direction: row;
+    background-color: transparent;
+    border: transparent;
+}
+
+.fotousuariocomentario:hover {
+    cursor: pointer;
 }
 
 .fotousuariosocial {
@@ -176,6 +182,10 @@ body {
     border: transparent;
     background-color: transparent;
     margin: 10px;
+}
+
+.fotopostadausuario button:hover {
+    cursor: pointer;
 }
 
 .fotopostadausuario img {
