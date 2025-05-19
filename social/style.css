@@ -74,6 +74,9 @@ body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 1.5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .amigosclubes button {
@@ -125,6 +128,9 @@ body {
 
 .conteinersocial {
     width: 45%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .comentario {
@@ -193,3 +199,4 @@ body {
     height: 15rem;
     border-radius: 20px;
 }
+
