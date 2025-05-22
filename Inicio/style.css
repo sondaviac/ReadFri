@@ -30,6 +30,25 @@ h2 {
     background-color: #EFDECC;
 }
 
+.listalivros button {
+    padding: 9px;
+    font-size: 17px;
+    border-radius: 17px;
+    background-color: transparent;
+    border: none;
+    color: #23282b;
+    margin-right: 20px;
+}
+
+.autores button {
+    padding: 9px;
+    font-size: 17px;
+    border-radius: 17px;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+
 button {
     padding: 9px;
     font-size: 17px;
@@ -100,44 +119,6 @@ p {
     overflow-wrap: break-word;
 }
 
-/*LISTA DOS LIVROS/BIBLIOTECA/MINHA LISTA*/ 
-
-.listalivros {
-    width: 100%;
-    background-color: #EFDECC;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-.sualistadelivro {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.livro:hover {
-    cursor: pointer;
-}
-
-.livro {
-    width: 12rem;
-}
-
-.capalivro {
-    width: 10rem;
-}
-
-.capalivro img {
-    width: 10rem;
-    margin-bottom: 10px;
-}
-
-.titulolivro p {
-    font-size: 15px;
-}
-
-
 /*AUTORES QUE SEGUE*/
 
 .autores {
@@ -148,14 +129,11 @@ p {
 
 .perfil {
     margin-right: 40px;
-    width: 6rem;
+    width: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.perfil:hover {
-    cursor: pointer;
+    align-items: center;
 }
 
 .perfil img {
@@ -166,4 +144,46 @@ p {
 
 .nomeusuarioperfil p {
     text-align: center;
+}
+
+/*LISTA DOS LIVROS/BIBLIOTECA/MINHA LISTA*/ 
+
+.listalivros {
+    width: 100%;
+    background-color: #EFDECC;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.titulolista {
+    width: 13rem;
+    margin: 10px;
+}
+
+.titulolista:hover {
+    background-color: transparent;
+}
+
+.sualistadelivro {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.livro {
+    width: 12rem;
+}
+
+.capalivro {
+    width: 100%;
+}
+
+.capalivro img {
+    width: 10rem;
+    margin-bottom: 10px;
+}
+
+.titulolivro p {
+    font-size: 15px;
 }
